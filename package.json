@@ -24,8 +24,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-     
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "ng build --prod"
+
+  },
+  "engines": {
+    "node": "20.x"
   },
   "browserslist": [
     ">0.2%",
